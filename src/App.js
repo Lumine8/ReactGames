@@ -62,7 +62,7 @@ export default function App() {
             }}
           >
             <div style={{ fontSize: "larger" }}>{Games.name}</div>
-            <div style={{ fontSize: "smaller" }}>{Games.Ratings}</div>
+            <div style={{ fontSize: "smaller" }}>Ratings: {Games.Ratings}</div>
           </li>
         ))}
       </div>
