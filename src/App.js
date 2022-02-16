@@ -61,7 +61,6 @@ export default function App() {
               borderRadius: "0.5rem"
             }}
           >
-            {" "}
             <div style={{ fontSize: "larger" }}>{Games.name}</div>
             <div style={{ fontSize: "smaller" }}>{Games.Ratings}</div>
           </li>
